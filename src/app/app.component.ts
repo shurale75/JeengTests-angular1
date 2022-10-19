@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular1';
+  inputTest = 'inputTest'
+  user: User = {firstName: 'Dima', lastName: 'Lastname'}
+}
+
+export interface User {
+  firstName:string;
+  lastName:string;
 }
